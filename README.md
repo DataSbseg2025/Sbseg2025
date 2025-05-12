@@ -9,7 +9,7 @@ Este repositório acompanha o artigo _"Uma Avaliação de AutoML e Técnicas XAI
 ```
 .
 ├── data/
-│   └── phishing_dataset.csv            # Conjunto de dados rotulado
+│   └── phishing_dataset.zip            # Conjunto de dados rotulado
 ├── features/
 │   └── feature_description.md          # Descrição das features utilizadas
 ├── plots/

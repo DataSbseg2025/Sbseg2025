@@ -6,28 +6,11 @@ Este repositório acompanha o artigo _"Uma Avaliação de AutoML e Técnicas XAI
 
 ## Estrutura do Repositório
 
-```
-.
-├── data/
-│   └── phishing_dataset.zip            # Conjunto de dados rotulado
-├── features/
-│   └── feature_description.md          # Descrição das features utilizadas
-├── plots/
-│   ├── shap_summary_plot.png           # Gráfico resumo do SHAP
-│   ├── lime_example_.html              # Exemplo de explicação LIME
-│   └── confusion_matrices/             # Matrizes de confusão dos modelos
-│   └── learning_curve/                 # Curva de aprendizado
-│   └── curve_roc/                      # Curva ROC
-├── src/
-│   ├── automl/
-│   │   ├── run_tpot.py                 # Execução com TPOT
-│   │   ├── run_flaml.py                # Execução com FLAML
-│   │   ├── run_autosklearn.py          # Execução com Auto-sklearn
-│   │   └── run_h2o.py                  # Execução com H2O AutoML
-│   ├── xai/
-│   │   ├── run_shap.py                 # Geração das explicações com SHAP
-│   │   └── run_lime.py                 # Geração das explicações com LIME
-```
+- `src/`: Código-fonte para pré-processamento, execução dos experimentos AutoML e aplicação das técnicas de XAI.
+- `data/`: Conjunto de dados utilizados no estudo (`phishing_dataset.zip`).
+- `features/`: Descrição detalhada das 131 features extraídas das URLs.
+- `plots/`: Gráficos gerados durante os experimentos, incluindo curvas ROC, curvas de aprendizado, explicações SHAP e LIME, e matrizes de confusão.
+- `README.md`: Visão geral do projeto e instruções de uso.
 
 ---
 
